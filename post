@@ -1,0 +1,46 @@
+{
+	"info": {
+		"_postman_id": "7ede8916-fbd1-4421-89c8-2777b59cc422",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21304880"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://api.trello.com/1/boards/?name={name}&key=7f5e1f89bd055211e740d68eb6449ffd&Token=e1faf9fd67b60ab104c4fbe5530b15e6cc5c6394ae19163114a05daa472b4a80",
+					"protocol": "https",
+					"host": [
+						"api",
+						"trello",
+						"com"
+					],
+					"path": [
+						"1",
+						"boards",
+						""
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "{name}"
+						},
+						{
+							"key": "key",
+							"value": "7f5e1f89bd055211e740d68eb6449ffd"
+						},
+						{
+							"key": "Token",
+							"value": "e1faf9fd67b60ab104c4fbe5530b15e6cc5c6394ae19163114a05daa472b4a80"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
